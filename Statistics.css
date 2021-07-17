@@ -1,0 +1,45 @@
+*{
+   margin:0px;
+   padding:0px;
+   box-sizing:border-box;
+ }
+ 
+ html{
+   font-size:16px;
+   font-family: 'Roboto', sans-serif;
+ }
+ 
+ .statistics1 .container{
+   display:grid;
+   grid-template-rows:6.25rem 6.25rem;
+   grid-template-columns:6.25rem 6.35rem;
+   align-content:center;
+   justify-content:center;
+   grid-gap:1.5rem 5rem;
+ }
+ 
+ .statistics1 .container .sub_container{
+   display:flex;
+   align-items:center;
+   justify-content:center;
+   flex-direction: column;
+   margin:1.5rem;
+ }
+ 
+ .statistics1 .container .sub_container h2,h3{
+   font-size:2rem;
+   padding-bottom:.4rem;
+ }
+ 
+ .statistics1 .container .sub_container p{
+   font-size:1.1rem;
+ }
+ 
+ @media screen and (min-height:900px) {
+   
+   .statistics1 .container{
+     display:flex;
+     flex-direction:row;
+   }
+   
+ }
